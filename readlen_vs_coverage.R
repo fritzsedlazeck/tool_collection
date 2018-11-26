@@ -16,7 +16,7 @@ plot_coverage<-function(read,genome_size,step){
 
   rownames(mat)=mat[,1]
 
- barplot(mat[,2],col='blue', xlab="Min read length (1 kbp)",main="Read length vs. coverage")
+ barplot(mat[,2],col='blue', xlab="Min read length (1 kbp)",main="Read length vs. coverage",ylab="Coverage")
 }
 
 
